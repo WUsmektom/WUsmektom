@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedang Uwuh Order</title>
+    <!-- Link to font awesome for inserting icons -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- Lets Link google font for inserting font families -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap" rel="stylesheet">
+    <!-- Link to css file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <!-- now insert icons here -->
+                <img src="images/logosmektom.png" alt="" width="50px">
+                <div class="logo-text">Wedang<span>Uwuh</span></div>
+            </a>
+
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-buttons">
+                <div class="menu-toggle" id="mobile-menu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+     <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-subtitle">
+                    <i class="fa-solid fa-seedling"></i>
+                    Berbagai macam tanaman berkhasiat
+                </div>
+                <h1 class="hero-title">Wedang Uwuh <br><span>Minumnya Rasa Nusantara</span></h1>
+                <p class="hero-text">Rasakan kehangatan Wedang Uwuh, nikmati rasa tradisi yang tak pernah pudar, dan rasakan cinta Nusantara dalam setiap tegukan</p>
+            </div>
+            <img src="images/wowo.png" alt="">
+        </div>
+     </section>
+
+    <!-- Products Section -->
+     <section class="products" id="products">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-subtitle">Menu</div>
+                <h2 class="section-title">Varian Wedang Uwuh</h2>
+                <p class="section-desc"></p>
+            </div>
+            <div class="products-grid">
+                <div class="products-card">
+                    <div class="products-img">
+                        <img src="images/pcs.jpeg" alt="Rosella">
+                    </div>
+                    <div class="products-info">
+                        <h3 class="products-title">Rosella</h3>
+                        <p class="products-desc">Varian rosella</p>
+                        <div class="variant-selector">
+                            <span class="variant-label">Pilih Ukuran:</span>
+                            <div class="variant-options">
+                                <button class="variant-btn active" data-price="Rp4.000" data-img="images/pcs.jpeg">Pcs</button>
+                                <button class="variant-btn" data-price="Rp18.000/5 Pcs" data-img="images/pack.jpeg">Pack</button>
+                                <button class="variant-btn" data-price="Rp5.000" data-img="images/rosellapng.png">Seduh</button>
+                            </div>
+                        </div>
+                        <div class="products-footer">
+                            <div class="products-price">Rp4.000</div>
+                            <a href="#" class="btn btn-primary btn-buy" style="padding: 5px 15px; font-size: 14px;">Beli</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="products-card">
+                    <div class="products-img">
+                        <img src="images/pcs.jpeg" alt="Telang">
+                    </div>
+                    <div class="products-info">
+                        <h3 class="products-title">Telang</h3>
+                        <p class="products-desc">Varian telang</p>
+                        <div class="variant-selector">
+                            <span class="variant-label">Pilih Ukuran:</span>
+                            <div class="variant-options">
+                                <div class="variant-options">
+                                    <button class="variant-btn active" data-price="Rp4.000" data-img="images/pcs.jpeg">Pcs</button>
+                                    <button class="variant-btn" data-price="Rp18.000/5 Pcs" data-img="images/pack.jpeg">Pack</button>
+                                    <button class="variant-btn" data-price="Rp5.000" data-img="images/telangpng.png">Seduh</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products-footer">
+                            <div class="products-price">Rp4.000</div>
+                            <a href="#" class="btn btn-primary btn-buy" style="padding: 5px 15px; font-size: 14px;">Beli</a>
+                        </div>
+                    </div>
+                </div>
+            </div>        
+        </div>
+     </section>
+
+    <!-- About Section -->
+     <section class="about" id="about">
+        <div class="container">
+            <div class="about-wrapper">
+                <div class="about-image">
+                    <img src="images/bg.png" alt="Bahan Tradisional Wedang Uwuh">
+                </div>
+                <div class="about-content">
+                    <div class="section-subtitle">Tentang Kami</div>
+                    <h2 class="section-title">Warisan Tradisi dalam <span>Setiap Gelas</span></h2>
+                    <p class="about-text">
+                        Wedang Uwuh kami bukan sekadar minuman herbal biasa. Kami memilih bahan-bahan alami terbaik langsung dari alam, mulai dari kayu secang yang memberikan warna merah ikonik, hingga jahe emprit yang memberikan kehangatan maksimal.
+                    </p>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <i class="fa-solid fa-leaf"></i>
+                            <div>
+                                <h4>100% Alami</h4>
+                                <p>Tanpa pengawet dan pewarna buatan.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fa-solid fa-heart"></i>
+                            <div>
+                                <h4>Kaya Manfaat</h4>
+                                <p>Meningkatkan imun dan menghangatkan tubuh.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+    <!-- Footer -->
+     <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <ul class="footer-links">
+                        <li><i class="fa-solid fa-location-dot"></i>  Jl.Semolowaru No.84, Menur Pumpungan, Kec. Sukolilo, Surabaya</li>
+                        <div style="margin-top: 20px;">
+                            <a href="https://www.google.com/maps/place/Sekolah+Menengah+Kejuruan+Unitomo+Surabaya/@-7.2981416,112.7608354,17z/data=!3m1!4b1!4m6!3m5!1s0x2dd7fa59f7ceaaab:0x7b0064db2aec0acd!8m2!3d-7.2981469!4d112.7654488!16s%2Fg%2F11tfnxz393?entry=ttu&g_ep=EgoyMDI2MDEyMS4wIKXMDSoASAFQAw%3D%3D" 
+                                target="_blank" 
+                                class="btn btn-primary" 
+                                style="display: inline-flex; align-items: center; gap: 8px; text-decoration: none; padding: 10px 20px;">
+                                <i class="fa-solid fa-map-location-dot"></i> Lihat di Google Maps
+                            </a>
+                        </div>
+                    </ul>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/uwuhproject/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://wa.me/6288989797701?text=Halo saya ingin memesan Wedang Uwuh"><i class="fa-solid fa-phone"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2026 Wedang Uwuh Smektom</p>
+        </div>
+     </footer>
+    <!-- Link to JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
